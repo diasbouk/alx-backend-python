@@ -5,6 +5,6 @@
 """
 
 
-def to_str(number: int) -> str:
-    """ Itoa """
+def to_str(number: float) -> str:
+    """ float to string """
     return str(number)
