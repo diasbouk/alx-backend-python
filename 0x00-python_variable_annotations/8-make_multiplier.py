@@ -4,10 +4,9 @@
 8-make_multiplier
 """
 
+from collections.abc import Callable
 
-def make_multiplier(multiplier: float) -> function:
+
+def make_multiplier(multiplier: float) -> Callable:
     """ make_multiplier """
-    def mult(num: float) -> float:
-        """ Mult """
-        return (num * multiplier)
-    return mult
+    return lambda x: x * multiplier
