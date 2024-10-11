@@ -1,19 +1,12 @@
 #!/usr/bin/env python3
-
-"""
-101-safely_get_value
-"""
-
-
-from typing import TypeVar, Mapping, Union, Any
+"""Advanced type annotated function"""
+from typing import Any, Mapping, TypeVar, Union
+T = TypeVar('T')
 
 
-ty = TypeVar('ty')
-
-
-def safely_get_value(dct: Mapping, key: Any,
-                     default: Union[ty, None] = None) -> Union[ty, Any]:
-    """ TypeVar """
+def safely_get_value(dct: Mapping, key: Any, default: Union[T, None]
+                     = None) -> Union[Any, T]:
+    """More type annotations"""
     if key in dct:
         return dct[key]
     else:
