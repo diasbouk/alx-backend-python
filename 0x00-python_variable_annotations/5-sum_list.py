@@ -9,5 +9,5 @@ def sum_list(input_list: list[float]) -> float:
     """ Sums the floats """
     total: float = 0.0
     for ele in input_list:
-        total += ele
+        total += float(ele)
     return total
