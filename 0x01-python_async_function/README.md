@@ -3,9 +3,9 @@
 
 ### Read or watch:
 
-[Async IO in Python: A Complete Walkthrough](https://intranet.alxswe.com/rltoken/zYkXScziW1D5rNdNEvObjQ)
-[asyncio - Asynchronous I/O](https://intranet.alxswe.com/rltoken/aZUO4GiWHbPIrVBIwptFAwa)
-[random.uniform](https://intranet.alxswe.com/rltoken/72mVf1s8rx2ih_U2WjBmaA)
+[Async IO in Python: A Complete Walkthrough](https://intranet.alxswe.com/rltoken/zYkXScziW1D5rNdNEvObjQ)\
+[asyncio - Asynchronous I/O](https://intranet.alxswe.com/rltoken/aZUO4GiWHbPIrVBIwptFAwa)\
+[random.uniform](https://intranet.alxswe.com/rltoken/72mVf1s8rx2ih_U2WjBmaA)\
 
 ### Learning Objectives
 
@@ -29,4 +29,4 @@
 **All your functions and coroutines must be type-annotated.**\
 **All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')**\
 **All your functions should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)'**\
-**A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)**\
+**A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)**
